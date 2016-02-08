@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GSR.API
+namespace Domain.Data
 {
-    public class Class1
+    public struct IndexCellRectangle
     {
+        public double Cellx1, Cellx2, Celly1, Celly2;
     }
 }

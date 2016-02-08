@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GSR.Interfaces
+namespace GSR.Common.Types
 {
-    public class Class1
+    public enum MetricType
     {
+        AbsoluteValue,
+        Counter,
+        TimeSpan
     }
 }

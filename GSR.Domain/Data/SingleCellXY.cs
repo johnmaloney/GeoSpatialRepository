@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GSR.Common
+namespace Domain.Data
 {
-    public class Class1
+    public struct SingleCellXY
     {
+        public int X;
+        public int Y;
     }
 }
