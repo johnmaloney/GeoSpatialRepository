@@ -16,6 +16,5 @@ namespace GSR.Interfaces
 
         IEnumerable<dynamic> GetDataSince(DateTime since);
         IEnumerable<IMetricMessage> GetMessagesSince(DateTime since);
-        bool HasChangedSince(DateTime since);
     }
 }

@@ -46,6 +46,14 @@ namespace Domain.Data
 
             return cell;
         }
+        
+        public AIndexCell<T> Find(int cellAddress, int addressSelector, int depthRemaining)
+        {
+            if (depthRemaing == 0)
+            {
+                return this
+            }
+        }
 
         #endregion
     }
